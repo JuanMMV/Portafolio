@@ -1,0 +1,13 @@
+/*========================*/
+/*         layout         */
+/*========================*/
+.layout {
+  color: var(--background);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+.container-layout {
+  width: 100%;
+}

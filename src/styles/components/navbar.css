@@ -1,0 +1,44 @@
+/*========================*/
+/*         navbar         */
+/*========================*/
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: var(--navbar-color);
+  position: fixed;
+  width: 100%;
+  height: 80px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0 25px;
+  height: 100%;
+}
+
+.naviten-list {
+  display: flex;
+  padding: 0 10px;
+  align-items: stretch;
+  height: 100%;
+}
+
+.naviten-list a {
+  display: flex;
+  align-items: center;
+  color: var(--text-secondary);
+  padding: 0px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.naviten-list a:hover {
+  background-color: var(--background);
+  color: var(--primary);
+}
