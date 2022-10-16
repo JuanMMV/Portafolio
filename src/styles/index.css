@@ -4,6 +4,7 @@
 /*         global         */
 /*========================*/
 
+html, /*el html se lo agregue despues, tal vez tenga que separarlo*/
 body {
   margin: 0;
   font-family: "Roboto", "Segoe UI", sans-serif;
@@ -11,6 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background);
   color: var(--text-primary);
+  scroll-behavior: smooth;
 }
 
 code {
@@ -21,5 +23,11 @@ code {
 h1,
 h2,
 h3 {
+  color: var(--text-primary);
+}
+span {
+  color: var(--text-primary);
+}
+div {
   color: var(--text-primary);
 }

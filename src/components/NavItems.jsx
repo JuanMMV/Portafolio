@@ -3,11 +3,9 @@
 export const NavItems = () => {
   return (
     <div className="naviten-list">
-      <a href="#">Inicio</a>
-
-      <a href="#">Proyectos</a>
-
-      <a href="#">contacto</a>
+      <a href="#top">Inicio</a>
+      <a href="#proyects">Proyectos</a>
+      <a href="#technologies">Tecnologias</a>
     </div>
   );
 };

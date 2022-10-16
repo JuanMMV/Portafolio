@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { Cards } from "./components/Cards";
+import { Proyects } from "./components/Proyects";
 import { Cover } from "./components/Cover";
 import { Layout } from "./components/Layout";
 import { Navbar } from "./components/Navbar.jsx";
+import { Technologies } from "./components/Technologies.jsx";
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -17,7 +18,8 @@ function App() {
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Layout>
         <Cover />
-        <Cards />
+        <Proyects />
+        <Technologies />
       </Layout>
     </div>
   );

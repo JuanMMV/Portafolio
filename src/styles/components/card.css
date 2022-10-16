@@ -17,7 +17,7 @@
 
 .card-image {
   grid-area: image;
-  background-image: url('https://pbs.twimg.com/media/Es-aylWUcAQ2YmZ?format=jpg&name=large');
+  background-image: url("https://pbs.twimg.com/media/Es-aylWUcAQ2YmZ?format=jpg&name=large");
   border-radius: 15px 15px 0 0;
   background-size: cover;
   background-position: center;
@@ -59,7 +59,7 @@
   padding: 10px;
 }
 
-.card-stat .card-icon{
+.card-stat .card-icon {
   width: 30px;
   height: 30px;
   padding: 5px;
@@ -70,3 +70,11 @@
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
+.card-left:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0 0 0 15px;
+}
+.card-right:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0 0 15px 0;
+}
