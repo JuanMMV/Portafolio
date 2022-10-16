@@ -7,7 +7,14 @@
   flex-direction: column;
 }
 
-.technologies-grid{}
+.technologies-grid{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
 
 .technologies-card{
   display: flex;

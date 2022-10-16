@@ -1,15 +1,20 @@
 import "../styles/components/technologies.css";
-import { SiMongodb } from "react-icons/si";
+import { technologiesData } from "../utils/technologiesData";
 
 export const Technologies = () => {
   return (
     <div className="technologies-container" id="technologies">
       <h1>Tecnologias</h1>
       <div className="technologies-grid">
-        <div className="technologies-card">
-          <SiMongodb className="technologies-icon" />
-          <span>MongoDB</span>
-        </div>
+        {technologiesData.map((technologie, index) => {
+          return (
+            <div className="technologies-card" key={index}>
+              {technologie.icon}
+              
+              <span>{technologie.name}</span>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
